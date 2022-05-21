@@ -36585,7 +36585,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -36607,6 +36606,10 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -50px auto 14px 80px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+
   .u-header .u-image-1 {
     margin-top: -26px;
   }
