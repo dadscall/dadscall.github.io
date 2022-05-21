@@ -583,4 +583,34 @@
   .u-section-3 .u-text-2 {
     width: 340px;
   }
+}.u-section-4 .u-sheet-1 {
+  min-height: 173px;
+}
+
+.u-section-4 .u-text-1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 7px auto 0;
+}
+
+.u-section-4 .u-text-2 {
+  line-height: 1.8;
+  width: 680px;
+  margin: 7px auto 23px;
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-4 .u-text-2 {
+    width: 340px;
+  }
 }
