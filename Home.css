@@ -75,7 +75,6 @@
 
 .u-section-1 .u-custom-html-1 {
   min-height: 29px;
-  height: auto;
   margin: 77px 54px 0 59px;
 }
 
@@ -105,7 +104,6 @@
 
 .u-section-1 .u-custom-html-2 {
   min-height: 25px;
-  height: auto;
   width: 237px;
   margin: 86px 65px 0;
 }
@@ -133,7 +131,6 @@
 
 .u-section-1 .u-custom-html-3 {
   min-height: 25px;
-  height: auto;
   margin: 55px 12px 0 0;
 }
 
@@ -180,6 +177,7 @@
   }
 
   .u-section-1 .u-custom-html-1 {
+    height: auto;
     margin-top: 106px;
     margin-right: 21px;
     margin-left: 25px;
@@ -205,6 +203,7 @@
   }
 
   .u-section-1 .u-custom-html-2 {
+    height: auto;
     margin-top: 113px;
     margin-left: 31px;
     margin-right: 32px;
@@ -230,6 +229,7 @@
   }
 
   .u-section-1 .u-custom-html-3 {
+    height: auto;
     width: 242px;
     margin-right: 0;
   }
