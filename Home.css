@@ -557,6 +557,12 @@
   margin: 7px auto 20px;
 }
 
+.u-section-3 .u-image-1 {
+  width: 170px;
+  height: 20px;
+  margin: 14px auto 16px;
+}
+
 @media (max-width: 1199px) {
   .u-section-3 .u-text-1 {
     margin-left: 366px;
@@ -584,6 +590,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 202px;
+  }
+
   .u-section-3 .u-text-1 {
     margin-left: 66px;
     margin-right: 43px;
@@ -592,6 +602,7 @@
 
   .u-section-3 .u-text-2 {
     width: 340px;
+    margin-bottom: 0;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 201px;
