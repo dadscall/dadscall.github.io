@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1518px;
+  min-height: 1858px;
 }
 
 .u-section-1 .u-text-1 {
@@ -12,6 +12,13 @@
 .u-section-1 .u-text-2 {
   width: 740px;
   margin: 7px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 850px;
+  height: 400px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 20px auto 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -49,7 +56,7 @@
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 7px auto 60px;
+  margin: 7px auto 37px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -140,7 +147,11 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1438px;
+    min-height: 1778px;
+  }
+
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-scale: 0.3;
   }
 
   .u-section-1 .u-text-6 {
@@ -241,7 +252,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1163px;
+    min-height: 1442px;
   }
 
   .u-section-1 .u-text-1 {
@@ -250,6 +261,11 @@
 
   .u-section-1 .u-text-2 {
     width: 720px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 339px;
   }
 
   .u-section-1 .u-text-3 {
@@ -341,7 +357,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1263px;
+    min-height: 1601px;
   }
 
   .u-section-1 .u-text-1 {
@@ -350,6 +366,11 @@
 
   .u-section-1 .u-text-2 {
     width: 540px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 254px;
   }
 
   .u-section-1 .u-text-3 {
@@ -410,15 +431,22 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1414px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
+    width: 340px;
   }
 
   .u-section-1 .u-text-2 {
     width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 160px;
   }
 
   .u-section-1 .u-text-3 {
@@ -658,12 +686,12 @@
 
 .u-section-5 .u-custom-html-1 {
   min-height: 27px;
-  height: auto;
   margin: 0 0 2px;
 }
 
 @media (max-width: 1199px) {
   .u-section-5 .u-custom-html-1 {
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -673,9 +701,14 @@
 
 .u-section-6 .u-custom-html-1 {
   margin-bottom: 1px;
-  height: auto;
   min-height: 25px;
   margin-top: 1px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-custom-html-1 {
+    height: auto;
+  }
 }.price--line-through{
   font-size: 30px;
   color: #111111;
