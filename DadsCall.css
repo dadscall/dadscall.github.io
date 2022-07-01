@@ -281,7 +281,6 @@
     margin-top: 68px;
     margin-right: 84px;
     margin-left: 55px;
-    width: auto;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -564,15 +563,17 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 271px;
+    min-height: 332px;
   }
 
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
+    margin-top: 14px;
   }
 
   .u-section-4 .u-text-2 {
-    width: 340px;
+    width: auto;
+    margin: 8px 0 20px;
   }
 }.u-section-5 .u-sheet-1 {
   min-height: 29px;
