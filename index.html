@@ -179,13 +179,14 @@ src="https://www.facebook.com/tr?id=722143783018139&ev=PageView&noscript=1"
       </div>
     </section>
     
-    <section class="u-clearfix u-section-5" id="sec-be64">
+    <!--section class="u-clearfix u-section-5" id="sec-be64">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
-          <div id="fb-root"></div><!-- Your Chat Plugin code -->
+          <div id="fb-root"></div>
+          
           <script> var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "100421699359328");
-      chatbox.setAttribute("attribution", "biz_inbox"); </script><!-- Your SDK code -->
+      chatbox.setAttribute("attribution", "biz_inbox"); </script>
           <script> window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
@@ -201,7 +202,38 @@ src="https://www.facebook.com/tr?id=722143783018139&ev=PageView&noscript=1"
       }(document, 'script', 'facebook-jssdk')); </script>
         </div>
       </div>
-    </section>
+    </section-->
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112972541848335");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v17.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
     <!--section class="u-clearfix u-section-6" id="sec-0107">
